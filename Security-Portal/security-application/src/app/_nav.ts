@@ -11,6 +11,15 @@ export const navItems: INavData[] = [
     }
   },
   {
+    name: 'Emplyee',
+    url: '/employee',
+    icon: 'icon-people',
+    badge: {
+      variant: 'info',
+      text: 'NEW'
+    }
+  },
+  {
     title: true,
     name: 'Theme'
   },
@@ -227,4 +236,5 @@ export const navItems: INavData[] = [
     },
     attributes: { disabled: true },
   },
+ 
 ];
